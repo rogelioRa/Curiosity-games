@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/roboto.css">
+	<link rel="stylesheet" href="css/material-fullpalette.min.css">
+	<link rel="stylesheet" href="css/ripples.min.css">
+	<link rel="stylesheet" href="css/material.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	
+	
+</head>
+<body><br>
+	
+	<button id="agregar" class="btn btn-warning btn-fab btn-raised mdi-av-pause" data-toggle="modal" data-target="#menu-juego"></button>
+
+	<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" id="menu-juego">
+	  <div class="modal-dialog modal-sm">
+		<div class="modal-content col-md-12 col-xs-12">
+		  <div class="col-md-12 col-xs-12" id="content"><br>
+		  	<center><h3 class="" id="titulo">Menu de Juego</h3> <hr></center>
+		 
+		  	<div class="col-md-12">
+		  		<center><h4 role="button" class="btn form-control modal-title myModalLabel" id="continuar"><i class="icon fa fa-play"></i> Continuar</h4></center>
+		  		<center><h4 role="button" class="btn form-control modal-title myModalLabel" id="reiniciar"><i class="icon fa fa-refresh"></i> Reiniciar juego</h4></center>
+		  		<center><h4 role="button" class="btn form-control modal-title myModalLabel" id="ayuda"><i class="icon fa fa-question-circle"></i> Ayuda</h4></center>
+		  		<center><h4 role="button" class="btn form-control modal-title myModalLabel" id="salir_juego"><i class="icon fa fa-sign-out"></i> Salir del juego</h4></center>
+		  		
+		  	</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/material.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+                $.material.init();
+            });
+		
+	</script>
+</body>
+</html>

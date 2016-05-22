@@ -1,0 +1,92 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+button{
+	border-radius: 100%;
+	background-color: aqua;
+}
+
+hr{
+	height: 2px;
+	background-color: grey;
+	border-radius: 50%;
+	width: 70%;
+	
+}
+
+.modal-content{
+	padding: 5px;
+	background-color: rgb(54,142,184);
+	border-radius: 5px;
+}
+
+#content{
+	background-color: white;
+}
+
+#titulo{
+	font-family: fantasy;
+}
+
+.modal-title{
+	padding: 8px;
+	margin-bottom: 3px;
+	background-color: rgb(54,142,184);
+	-webkit-transition: background-color .4s;
+	border-radius: 3px;
+	
+}
+
+#continuar{
+	background-color: rgb(228,126,60);
+	color: white;
+	border-radius: 5px;
+}
+
+#ayuda{
+	background-color: rgb(228,126,60);
+	color: white;
+	border-radius: 5px;
+}
+
+#reiniciar{
+	background-color: rgb(228,126,60);
+	color: white;
+	border-radius: 5px;
+}
+
+#salir_juego{
+	background-color: rgb(228,126,60);
+	color: white;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+#continuar:hover{
+	background-color: rgb(54,142,184);
+	cursor: pointer;
+}
+
+#ayuda:hover{
+	background-color: rgb(54,142,184);
+	cursor: pointer;
+}
+
+#reiniciar:hover{
+	background-color: rgb(54,142,184);
+	cursor: pointer;
+}
+
+#salir_juego:hover{
+	background-color: rgb(54,142,184);
+	cursor: pointer;
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color:rgba(34, 46, 50, 0.5);;
+}
